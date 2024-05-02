@@ -1,0 +1,39 @@
+/* Projects.css */
+
+.projects {
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .projects__title {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .projects__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .project {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .project__title {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  .project__description {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
